@@ -5,6 +5,7 @@ obj/
 # Visual Studio
 .vs/
 
+<<<<<<< Updated upstream
 # User-specific files
 *.user
 *.suo
@@ -15,3 +16,7 @@ obj/
 # OS files
 .DS_Store
 Thumbs.db
+=======
+bin/
+obj/
+>>>>>>> Stashed changes
