@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hfras\\Desktop\\Classwork\\Spring 2026\\App Dev for Analytics\\Competition 3\\Competition-3\\Competition-3.csproj": {}
+    "C:\\Users\\gusta\\source\\repos\\ISM-6225-Competition-3\\Competition-3\\Competition-3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hfras\\Desktop\\Classwork\\Spring 2026\\App Dev for Analytics\\Competition 3\\Competition-3\\Competition-3.csproj": {
+    "C:\\Users\\gusta\\source\\repos\\ISM-6225-Competition-3\\Competition-3\\Competition-3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hfras\\Desktop\\Classwork\\Spring 2026\\App Dev for Analytics\\Competition 3\\Competition-3\\Competition-3.csproj",
+        "projectUniqueName": "C:\\Users\\gusta\\source\\repos\\ISM-6225-Competition-3\\Competition-3\\Competition-3.csproj",
         "projectName": "Competition-3",
-        "projectPath": "C:\\Users\\hfras\\Desktop\\Classwork\\Spring 2026\\App Dev for Analytics\\Competition 3\\Competition-3\\Competition-3.csproj",
-        "packagesPath": "C:\\Users\\hfras\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hfras\\Desktop\\Classwork\\Spring 2026\\App Dev for Analytics\\Competition 3\\Competition-3\\obj\\",
+        "projectPath": "C:\\Users\\gusta\\source\\repos\\ISM-6225-Competition-3\\Competition-3\\Competition-3.csproj",
+        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gusta\\source\\repos\\ISM-6225-Competition-3\\Competition-3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hfras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
