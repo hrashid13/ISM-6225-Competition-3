@@ -1,8 +1,16 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model List<Competition_3.Models.Article>
+@{
+    ViewData["Title"] = "Top Business Headlines";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<div class="container mt-5"><h1 class="mb-4">Top Business Headlines</h1>
+    @if (Model != null && Model.Count > 0)
+    {
+        @foreach (var article in Model)
+        {
+            <div class="card mb-4"><div class="card-body"><h5 class="card-title"><strong>@article.Title</strong></h5><p class="card-text text-muted"><strong>Source:</strong> @article.Source?.Name
+                    </p><a href="@article.Url" target="_blank" class="btn btn-primary btn-sm">                        Read Full Article
+                    </a></div></div><hr />        }
+    }
+    else    {
+        <p class="alert alert-warning">No articles available at this time.</p>    }</div>
+ 
